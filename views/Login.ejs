@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People List</title>
+    <link rel="stylesheet" href="index/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Login</h2>
+            <form method="post" action="/login">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="email" id="Email" name="Email" placeholder="Email" required>
+                <button type="submit">Login</button>
+            </form>
+            <form method="get" action="/register" style="margin-top: 1rem;">
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
